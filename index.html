@@ -29,7 +29,7 @@
   </script> -->
 
   <!-- Google Tag Manager -->
-  <script type="text/partytown">
+  <script>
     const gtmSnippet = `
       // Google tag manager
       (function (w, d, s, l, i) {
@@ -52,6 +52,7 @@
 
     const script = document.createElement('script')
     script.innerHTML = gtmSnippet;
+    script.src = "text/partytown";
     document.body.append(script)
   </script>
   <!-- End Google Tag Manager -->
